@@ -17,3 +17,7 @@ git cherry-pick commitSHHAcode
 git fetch
 <br/>
 git rebase origin/master
+
+### to merge fixup commits in a PR:
+git rebase -i HEAD~5 # 5 being the total number of commits
+than in the interactive window, squash the fixup commits
