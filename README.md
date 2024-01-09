@@ -20,8 +20,10 @@ git rebase origin/master
 
 ### to merge fixup commits in a PR:
 git rebase -i HEAD~5 # 5 being the total number of commits
+<br/>
 than in the interactive window, squash the fixup commits
 
 ### to rename a commit in your PR
 git rebase -i HEAD~3 # 3 being the number of commits
+<br/>
 than replace pick with reword for the commits that you want to rename
